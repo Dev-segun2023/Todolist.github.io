@@ -1,0 +1,75 @@
+.todo-box{
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  z-index: 2; 
+  position: relative;
+
+  
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  z-index: 2;
+  position: relative;
+}
+
+
+
+
+.input-css , .date-css{
+  font-size: 15px;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.btn{
+  padding: 15px;
+  font-size: 15px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn{
+  color: white;
+  background-color: #e41d0f;
+  border: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+
+}
+.todo-box{
+  align-items: center;
+  margin-top: 10px;
+  font-size: 16px;
+  
+  /* justify-items: flex-start; */
+
+
+}
+/* video{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.5;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+.head{
+  font-weight: 700;
+
+}
+
+
+
+
+
