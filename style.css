@@ -1,20 +1,27 @@
-.todo-box{
-  display: grid;
-  grid-template-columns: 3fr 2fr 1fr;
-  column-gap: 10px;
-  row-gap: 10px;
-  z-index: 2; 
-  position: relative;
-
-  
+ html, body{
+  background-color: yellow;
+  width: 100vw;
+  /* overflow-x: hidden; */
 }
-.wrapper{
+
+.todo-box{
+  width: 100%;
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 3fr 2fr 1fr;
   column-gap: 10px;
   row-gap: 10px;
-  z-index: 2;
-  position: relative;
+  /* font-size: 16px; */ 
+}
+
+
+.wrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+ 
 }
 
 
@@ -43,31 +50,24 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 15px;
-
 }
-.todo-box{
-  align-items: center;
-  margin-top: 10px;
-  font-size: 16px;
-  
-  /* justify-items: flex-start; */
 
-
-}
-/* video{
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  object-fit: cover;
-  opacity: 0.5;
-  z-index: 1;
-  display: grid;
-  grid-template-columns: 1fr;
-} */
 .head{
   font-weight: 700;
-
 }
+
+@media screen and (max-width: 600px) {
+  .delete-btn{
+    font-size: 12px
+  }
+  .btn{
+    font-size: 12px;
+  }
+  .input-css , .date-css{
+    font-size: 12px;
+  }
+}
+
 
 
 
