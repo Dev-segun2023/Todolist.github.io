@@ -68,6 +68,30 @@
   }
 }
 
+@media screen and (max-width: 361px) {
+  .delete-btn{
+    font-size: 8px
+  }
+  .btn{
+    font-size: 8px;
+  }
+  .input-css , .date-css{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 282px) {
+  .delete-btn{
+    font-size: 5px
+  }
+  .btn{
+    font-size: 5px;
+  }
+  .input-css , .date-css{
+    font-size: 8px;
+  }
+
+}
+
 
 
 
